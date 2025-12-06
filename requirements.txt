@@ -1,5 +1,4 @@
 # Requirements for S&P 500 and Bitcoin Financial Analysis
-# Generated for STAT 974 Term Paper
 
 # Core data manipulation and analysis
 pandas>=2.0.0
@@ -17,7 +16,10 @@ jupyter>=1.0.0
 ipykernel>=6.0.0
 
 
-# Optional: Additional financial analysis libraries
-scipy>=1.10.0  # Uncomment if statistical tests are needed
-scikit-learn>=1.3.0  # Uncomment if machine learning models are used
-statsmodels>=0.14.0  # Uncomment if econometric models are needed
+# Statistical and machine learning libraries
+scipy>=1.10.0
+scikit-learn>=1.3.0
+statsmodels>=0.14.0
+
+# Deep learning for LSTM models
+tensorflow>=2.13.0
